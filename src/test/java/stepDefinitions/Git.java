@@ -6,18 +6,29 @@ public class Git {
         System.out.println("The Git Is Working");
     }
 
-    public void GitDemo12() {
+    public void GitDemo126() {
         System.out.println("The Git Is Not Working");
     }
 
 
-    public void GitDemo13() {
+    public void GitDemo135() {
         System.out.println("The Git Is Not Working");
     }
 
-    public void GitDemo14() {
+    public void GitDemo145() {
+        System.out.println("The Git Is Not Working");
+    }
+
+    public void GitDemo132() {
         System.out.println("The Git Is Not Working");
     }
 
 
+    public void GitDemo123() {
+        System.out.println("The Git Is Not Working");
+    }
+
+    public void GitDemo141() {
+        System.out.println("The Git Is Not Working");
+    }
 }
