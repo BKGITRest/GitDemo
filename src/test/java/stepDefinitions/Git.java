@@ -36,4 +36,13 @@ public class Git {
         System.out.println("The Git Is Not Working");
     }
 
+    public void GitDemo19() {
+        System.out.println("The Git Is Not Working");
+    }
+
+    public void GitDemo12() {
+        System.out.println("The Git Is Not Working");
+    }
+
+
 }
