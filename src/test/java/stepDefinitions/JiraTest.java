@@ -59,7 +59,6 @@ public class JiraTest {
         JsonPath js = new JsonPath(issueDetails);
         int commentCount = js.getInt("fields.comment.comments.size()");
         for (int i = 0; i < commentCount; i++) {
-            System.out.println(js.getInt("fields.comment.comments.size[" + i + "].id"));
         }
 
     }
