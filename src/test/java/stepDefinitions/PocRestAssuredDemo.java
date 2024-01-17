@@ -11,9 +11,11 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import resources.APIResources;
+import resources.ReusableMethods;
 import resources.TestData;
 import resources.Utils;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
@@ -24,6 +26,8 @@ public class PocRestAssuredDemo extends Utils {
     RequestSpecification res;
     ResponseSpecification resspec;
     Response response;
+
+    ReusableMethods reusableMethods;
 
     String actualMessgae;
 
@@ -98,6 +102,10 @@ public class PocRestAssuredDemo extends Utils {
     }
 
 
+    @And("validate the {string} vs {string}")
+    public void validateTheVs(String arg0, String arg1) {
+
+    }
 }
 
 

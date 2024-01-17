@@ -13,7 +13,7 @@ public class TestData {
 
     public AddPlace addPlacePayLoad(String name, String language, String address) {
         AddPlace p = new AddPlace();
-        p.setAccuracy(50);
+        p.setAccuracy(82990);
         p.setAddress(address);
         p.setLanguage(language);
         p.setPhone_number("(+91) 983 893 3937");

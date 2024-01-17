@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-public class ReusableMethods {
+public class Reusable {
 
     public static String validateHeader(){
         System.out.println("Header Links is Validated");

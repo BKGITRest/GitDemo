@@ -6,6 +6,7 @@ Feature: Rest Assured Demo Feature File
     When user calls the "AddPlaceAPI" using http "POST" request
     Then the api call is success with status code 200
     And "status" in response body is "OK"
+    And validate the "addplace_Response" vs "expected_AddPlace_JsonSchema"
 
     Examples:
       | name           | language | address        |

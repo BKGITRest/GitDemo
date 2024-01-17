@@ -11,7 +11,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "accuracy": 50,
+    "accuracy": 82990,
     "name": "BharathKumar M",
     "phone_number": "(+91) 983 893 3937",
     "address": "Newyork Street",
@@ -22,12 +22,12 @@ Body:
         "lng": 33.427362
     },
     "types": [
-        "shoe park",
+        "839032030",
         "shop"
     ]
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Dec 2023 05:12:37 GMT
+Date: Wed, 27 Dec 2023 07:19:31 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,16 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "cc5c7e0610279a9697cd2e8edfc2c476",
+    "place_id": "6733cd697895a34778b76ff2c971c5d9",
     "scope": "APP",
-    "reference": "f5ac3af09e3559d90104da493326e3cef5ac3af09e3559d90104da493326e3ce",
-    "id": "f5ac3af09e3559d90104da493326e3ce"
+    "reference": "e4b70ed27c0158d38bd61467d2a1917ee4b70ed27c0158d38bd61467d2a1917e",
+    "id": "e4b70ed27c0158d38bd61467d2a1917e"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=cc5c7e0610279a9697cd2e8edfc2c476
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=cc5c7e0610279a9697cd2e8edfc2c476
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,27 +58,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 21 Dec 2023 05:12:38 GMT
+Date: Wed, 27 Dec 2023 07:19:31 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 254
+Content-Length: 0
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "50",
-    "name": "BharathKumar M",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "Newyork Street",
-    "types": "shoe park,shop",
-    "website": "https://rahulshettyacademy.com",
-    "language": "Tamil"
-}
+Content-Type: application/json; charset=UTF-8
